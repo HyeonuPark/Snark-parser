@@ -1,0 +1,26 @@
+{
+  "name": "snark-parser",
+  "version": "0.0.0",
+  "description": "Snark parser component using PEG.js",
+  "main": "parser.js",
+  "scripts": {
+    "build": "pegjs parser.pegjs",
+    "test": "npm run build && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyeonupark/snark-parser.git"
+  },
+  "keywords": [
+    "snark"
+  ],
+  "author": "HyeonuPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyeonupark/snark-parser/issues"
+  },
+  "homepage": "https://github.com/hyeonupark/snark-parser#readme",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
